@@ -1,0 +1,5 @@
+{
+  "type": "kill",
+  "dataSource": "inventory_items",
+  "interval": "1000/3000"
+}

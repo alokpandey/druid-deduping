@@ -1,0 +1,13 @@
+[
+  {"timestamp":"2025-04-18T21:00:00Z", "product_id":"product1", "product_name":"Laptop", "category":"Electronics", "quantity":50, "price":999.99, "warehouse_id":"WH001"},
+  {"timestamp":"2025-04-18T21:00:10Z", "product_id":"product2", "product_name":"Smartphone", "category":"Electronics", "quantity":100, "price":699.99, "warehouse_id":"WH001"},
+  {"timestamp":"2025-04-18T21:00:20Z", "product_id":"product3", "product_name":"Headphones", "category":"Electronics", "quantity":200, "price":149.99, "warehouse_id":"WH001"},
+  {"timestamp":"2025-04-18T21:00:30Z", "product_id":"product4", "product_name":"Tablet", "category":"Electronics", "quantity":75, "price":349.99, "warehouse_id":"WH001"},
+  {"timestamp":"2025-04-18T21:00:40Z", "product_id":"product5", "product_name":"Monitor", "category":"Electronics", "quantity":30, "price":249.99, "warehouse_id":"WH001"},
+  {"timestamp":"2025-04-18T21:00:50Z", "product_id":"product6", "product_name":"Keyboard", "category":"Electronics", "quantity":120, "price":79.99, "warehouse_id":"WH001"},
+  {"timestamp":"2025-04-18T21:01:00Z", "product_id":"product7", "product_name":"Mouse", "category":"Electronics", "quantity":150, "price":49.99, "warehouse_id":"WH001"},
+  
+  {"timestamp":"2025-04-18T21:01:10Z", "product_id":"product1", "product_name":"Laptop", "category":"Electronics", "quantity":50, "price":999.99, "warehouse_id":"WH001"},
+  {"timestamp":"2025-04-18T21:01:20Z", "product_id":"product2", "product_name":"Smartphone", "category":"Electronics", "quantity":100, "price":699.99, "warehouse_id":"WH001"},
+  {"timestamp":"2025-04-18T21:01:30Z", "product_id":"product3", "product_name":"Headphones", "category":"Electronics", "quantity":200, "price":149.99, "warehouse_id":"WH001"}
+]

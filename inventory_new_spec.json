@@ -1,0 +1,44 @@
+{
+  "type": "kafka",
+  "spec": {
+    "dataSchema": {
+      "dataSource": "inventory_new",
+      "timestampSpec": {
+        "column": "timestamp",
+        "format": "iso"
+      },
+      "dimensionsSpec": {
+        "dimensions": [
+          "product_id",
+          "product_name",
+          "category",
+          "warehouse_id"
+        ]
+      },
+      "metricsSpec": [
+        { "type": "count", "name": "count" },
+        { "type": "doubleSum", "name": "price_sum", "fieldName": "price" },
+        { "type": "longSum", "name": "quantity_sum", "fieldName": "quantity" }
+      ],
+      "granularitySpec": {
+        "type": "uniform",
+        "segmentGranularity": "HOUR",
+        "queryGranularity": "MINUTE",
+        "rollup": true
+      }
+    },
+    "ioConfig": {
+      "topic": "inventory_new",
+      "inputFormat": {
+        "type": "json"
+      },
+      "consumerProperties": {
+        "bootstrap.servers": "kafka:9092"
+      },
+      "useEarliestOffset": true
+    },
+    "tuningConfig": {
+      "type": "kafka"
+    }
+  }
+}
